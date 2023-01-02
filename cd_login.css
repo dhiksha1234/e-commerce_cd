@@ -1,0 +1,63 @@
+body{
+    background-color: aqua !important;
+    
+}
+.container{
+    background-color:aliceblue;
+    width: 90%;
+    height: 500px;
+     margin-left: 5%;
+    margin-top:3%;
+    border-radius: 15px;
+
+}
+.ladypic{
+    width: 77%;
+    height: 424px;
+    margin-left: -1%;
+    margin-top: -2%;
+}
+
+.input-item{
+    margin-left: 62%;
+    margin-top: -31%;
+    float: left;
+}
+input[type=text],input1 {
+    width: 94%;
+    background-color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+     
+  }
+  input[type=password],input1 {
+    width: 94%;
+    background-color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color:rgb(241, 109, 21)  ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+input[type=submit]:hover {
+    background-color: rgb(235, 152, 119);
+  }

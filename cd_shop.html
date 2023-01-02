@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CD Shopping</title>
+    <link rel="stylesheet" href="cd_shop.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <script  src="cd_shop.js"></script>
+
+</head>
+<body>
+    <div class="containerr">
+    
+        <!-- navbar-->
+        <nav class="navbar navbar-inverse">
+           <div class="container-fluid">
+             <div class="navbar-header">
+               <a class="navbar-brand" href="#"><img src="https://i.ibb.co/h88Rx2f/logo.png" height="35px" width="181px" class="navlogo"/></a>
+             </div>
+             <ul class="nav navbar-nav navbar-right">
+               <li><a href="cd_first.html">Home</a></li>
+               <li class="active"><a href="#">Explore</a></li>
+               <li><a href="cd_login.html">My Account</a></li>
+              </ul>
+           </div>
+         </nav> 
+         <!-- content-->
+             <div class="row">
+                <div class="col">
+                    <div class="belownav">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button>
+                  </div>
+                </div>
+            </div>
+
+
+        
+        <!-- Main -->
+        <div class="container">
+            <div class="row">
+            <div class="col col-md-4">
+                <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/sunglass.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">LouisVuittonSunglass</h4>
+                    <p class="card-text">Price: 6577</p>
+                    <a href="#" data-name="Sunglass" data-price="6577" class="add-to-cart btn btn-primary">Add to cart</a>
+                </div>
+                </div>
+            </div>
+            <div class="col col-md-4">
+                <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="images/mac makeup.jpg" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">Dior Makeup Kit</h4>
+                    <p class="card-text">Price: 8999</p>
+                    <a href="#" data-name="MakeupKit" data-price="8999" class="add-to-cart btn btn-primary">Add to cart</a>
+                </div>
+                </div>
+            </div>
+            <div class="col col-md-4">
+                <div class="card" style="width: 10rem;">
+                    <img class="card-img-top" src="images/watch.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Fastrack Watch</h4>
+                        <p class="card-text">Price: 2799</p>
+                        <a href="#" data-name="Watch" data-price="2799" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+                </div>
+            </div>
+            </div>
+
+            <!-- 2nd row-->
+            <div class="col col-md-4">
+                <div class="card" style="width: 10rem;">
+                    <img class="card-img-top" src="images/headphones.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Headphones</h4>
+                        <p class="card-text">Price: 10,999</p>
+                        <a href="#" data-name="Headphones" data-price="10999" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="col col-md-4">
+                <div class="card" style="width: 10rem;">
+                    <img class="card-img-top" src="images/bag combo.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Travel Bag Combo</h4>
+                        <p class="card-text">Price: 3999</p>
+                        <a href="#" data-name="Bag" data-price="3999" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="col col-md-4">
+                <div class="card" style="width: 10rem;">
+                    <img class="card-img-top" src="images/pendant.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Diamond pendant</h4>
+                        <p class="card-text">Price: 4200</p>
+                        <a href="#" data-name="Pendant" data-price="4200" class="add-to-cart btn btn-primary text-white">Add to cart</a>
+                    </div>
+                    </div>
+            </div>
+
+
+
+            </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                <table class="show-cart table">
+                    
+                </table>
+                <div>Total price: <span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a href="cd_cart.html"><button type="button" class="btn btn-primary" >Order now</button></a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+ 
+   
+                
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+body{
+    background-color: aqua !important;
+    
+}
+.container{
+    background-color:aliceblue;
+    width: 90%;
+    height: 1300px;
+     margin-left: 5%;
+    margin-top:3%;
+    border-radius: 15px;
+
+}
+
+
+/* ad*/
+.id{
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 375px;
+    width: 90%;
+    border: 1px solid  white;
+    
+    
+ }
+ .shop{
+    width: 50%;
+    height:375px;
+    margin-left:50%;
+    float:left;
+    margin-top:-20%;
+ }
+ .shope{
+   width: 50%;
+   height:375px;
+   margin-left:50%;
+   float:left;
+   margin-top:-20%;
+}
+ #heading{
+    font-weight: bold;
+    margin-left: 52px;
+    margin-top: 75px;
+    font-size: 30px;
+ }
+ .heading1{
+    font-weight: bold;
+    margin-left: 52px;
+    margin-top: 5px;
+    font-size: 40px;
+ }
+#now{
+   margin-left: 52px;
+   margin-top: 8px;
+   background-color:rgb(241, 109, 21)  ;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+
+}
+#noww{
+   margin-top: 8px;
+   margin-left:10px;
+   background-color:rgb(241, 109, 21)  ;
+  
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+
+}
+
+/* featured*/
+#heading2{
+    margin-top: 4%;
+     margin-left: 9%;
+     font-size: 28px;
+     font-weight: bold;
+    
+ }
+ 
+ .box{
+    height:250px;
+    width:20%;
+    margin-top:3%;
+    margin-left:19%;
+    float:left;
+    box-shadow: 7px 6px 20px grey;
+}
+ .boxx{
+    height:250px;
+    width:20%;
+    margin-top:3%;
+    margin-left:3%;
+    float:left;
+    box-shadow: 7px 6px 20px grey;
+
+  }
+ 
+ .inside{
+    height:188px;
+    width:100%;
+     
+    float:left;
+  }
+ 
+  .subhead{
+    margin-top: 2%;
+    margin-left: 12%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+ 
+/* top brand */
+.top{
+    margin-top: 36%;
+    margin-left: 9%;
+    font-size: 28px;
+    font-weight: bold;
+  }
+ 
+  .circle{
+    height: 141px;
+    width: 12%;
+    margin-top: 3%;
+    margin-left: 5%;
+    float: left;
+    box-shadow: 7px 6px 20px grey;
+
+  }
+  .circlee{
+    height: 141px;
+    width: 12%;
+    margin-top: 3%;
+    margin-left: 21%;
+    float: left;
+    box-shadow: 7px 6px 20px grey;
+
+  }
+ 
+  .insidecircle{
+    width:100%;
+    height: 141px;
+ 
+  }
